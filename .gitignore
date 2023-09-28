@@ -1,0 +1,32 @@
+# Ignore built executables
+main
+
+# Ignore all build files, but keep the build/ directory
+build/*
+!build/.keep
+
+# Ignore all data, except some examples
+data/library/*
+
+data/objects/*
+!data/objects/chair111.off
+
+!data/objects/chair112.off
+!data/objects/chair112_small.off
+!data/objects/table141.off
+!data/objects/table141_small.off
+!data/objects/teddy161.off
+!data/objects/teddy161_small.off
+
+data/maps/*
+!data/maps/1w3h.off
+!data/maps/1w3h.png
+
+# Ignore all output files, but keep the output/ directory
+output/*
+!output/.keep
+
+__pycache__/
+
+# VS Code settings
+.vscode/

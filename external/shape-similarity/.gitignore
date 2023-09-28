@@ -1,0 +1,7 @@
+# Executable
+identify-object
+
+# Ignore all build files, but keep the build/ directory
+build/*
+!build/.keep
+
